@@ -1,0 +1,29 @@
+DECLARE str1, str2 : STRING
+DECLARE char1 : CHARACTER
+DECLARE I : INTEGER
+DECLARE alphabets : BOOLEAN
+
+str1 <-- ""
+str2 <-- "abcdefghijklmnopqrstuvwxyz"
+char1 <-- ""
+I <-- 0
+alphabets <-- TRUE
+
+INPUT "enter your string: "
+str1 <-- LOWER(str1)
+
+FOR I <-- 1 TO LEN(alphabets)
+   CHAR1 <-- MID(str2, i, 1)
+   IF LOCATE(str1, char1) = 0 THEN alphabets = FALSE
+
+  NEXT I
+
+
+    IF alphabets = TRUE
+     THEN
+         OUTPUT "the entered string has all the alphabets"
+     ELSE
+         "the entered string does not have all of the alphabets"
+
+     END IF
+        
