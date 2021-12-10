@@ -1,9 +1,9 @@
         DECLARE str1 : String
         DECLARE i, donutcounter, donuts : Integer
 
-        donuts <-- 0
-        donutcounter <-- 0
-        i <-- 0
+        donuts = 0
+        donutcounter = 0
+        i = 0
 
         INPUT("donuts: " , donutcounter)
         
@@ -17,4 +17,4 @@
 
             ElseIf donutcounter > 10 Then
                 OUTPUT("too many donuts")
-            End If
+            
