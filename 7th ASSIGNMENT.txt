@@ -1,0 +1,24 @@
+        DECLARE s, str2, str3 : String
+        DECLARE char1 : Character
+        DECLARE i : Integer
+
+        s = ""
+        str2 = ""
+        str3 = ""
+        char1 = ""
+        i = 0
+
+       INPUT("enter your string: " , s)
+        
+
+        str2 <-- Left(s, 2)
+        str3 <-- Right(s, 2)
+
+        For i <-- 1 To Len(s)
+            char1 <-- Mid(s, 3, 2)
+
+            str2 <-- str2 & str3
+
+
+
+           OUTPUT("altered string: " ,str2)
