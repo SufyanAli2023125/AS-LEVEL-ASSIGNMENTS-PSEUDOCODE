@@ -1,0 +1,20 @@
+        DECLARE str1 : String
+        DECLARE i, donutcounter, donuts : Integer
+
+        donuts <-- 0
+        donutcounter <-- 0
+        i <-- 0
+
+        INPUT("donuts: " , donutcounter)
+        
+
+        For i <-- 1 To 10
+            If donutcounter >= "1" And donutcounter <= "10" Then
+                str1 <-- donutcounter
+
+                OUTPUT("number of donuts: " , str1)
+
+
+            ElseIf donutcounter > 10 Then
+                OUTPUT("too many donuts")
+            End If
