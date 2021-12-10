@@ -1,0 +1,28 @@
+        DECLARE str1, str2, str3, replace : String
+        DECLARE char1, char2 : Character
+        DECLARE i : Integer
+
+        str1 = ""
+        str2 = ""
+        str3 = ""
+        replace = "*"
+        char1 = ""
+        char2 = ""
+        i = 0
+
+       INPUT("enter your string: " , STR1)
+       
+        For i <-- 2 To Len(str1)
+            char1 <-- Left(str1, 1)
+            char2 <-- Mid(str1, i, 1)
+
+            If char1 <> char2 Then
+                str2 <-- str2 & char2
+
+            Else
+                str2 <-- str2 & replace
+
+
+            End If
+        Next
+           OUTPUT("altered string: " , char1 ,str2)
