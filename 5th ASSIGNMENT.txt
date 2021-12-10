@@ -21,75 +21,75 @@
          INPUT("enter your string: " , str1)
         
 
-        For i = 1 To Len(str1)
-            char1 = Mid(str1, i, 1)
-            char1 = LCase(char1)
+        For i <-- 1 To Len(str1)
+            char1 <-- Mid(str1, i, 1)
+            char1 <-- LCase(char1)
 
-            If char1 = "a" Then
-                vowelcounta = vowelcounta + 1
-
-
-
-
-            End If
-        Next i
-             OUTPUT("number of a's: " & vowelcounta)
-
-        For i = 1 To Len(str1)
-
-            char2 = Mid(str1, i, 1)
-            char2 = LCase(char2)
-
-            If char2 = "e" Then
-                vowelcounte = vowelcounte + 1
-
-
-
-            End If
-        Next i
-             OUTPUT("number of e's: " & vowelcounte)
-
-        For i = 1 To Len(str1)
-            char3 = Mid(str1, i, 1)
-            char3 = LCase(char3)
-
-
-            If char3 = "i" Then
-                vowelcounti = vowelcounti + 1
+            If char1 <-- "a" Then
+                vowelcounta <-- vowelcounta + 1
 
 
 
 
             End If
         Next i
-              OUTPUT("number of i's: " & vowelcounti)
+             OUTPUT("number of a's: " , vowelcounta)
 
-        For i = 1 To Len(str1)
-            char4 = Mid(str1, i, 1)
-            char4 = LCase(char4)
+        For i <-- 1 To Len(str1)
+
+            char2 <-- Mid(str1, i, 1)
+            char2 <-- LCase(char2)
+
+            If char2 <-- "e" Then
+                vowelcounte <-- vowelcounte + 1
 
 
-            If char4 = "o" Then
-                vowelcounto = vowelcounto + 1
+
+            End If
+        Next i
+             OUTPUT("number of e's: " , vowelcounte)
+
+        For i <-- 1 To Len(str1)
+            char3 <-- Mid(str1, i, 1)
+            char3 <-- LCase(char3)
+
+
+            If char3 <-- "i" Then
+                vowelcounti <-- vowelcounti + 1
+
+
+
+
+            End If
+        Next i
+              OUTPUT("number of i's: " , vowelcounti)
+
+        For i <-- 1 To Len(str1)
+            char4 <-- Mid(str1, i, 1)
+            char4 <-- LCase(char4)
+
+
+            If char4 <-- "o" Then
+                vowelcounto <-- vowelcounto + 1
 
 
               
             End If
         Next i
-              OUTPUT("number of o's: " & vowelcounto)
+              OUTPUT("number of o's: " , vowelcounto)
 
 
-        For i = 1 To Len(str1)
-            char5 = Mid(str1, i, 1)
-            char5 = LCase(char5)
+        For i <-- 1 To Len(str1)
+            char5 <-- Mid(str1, i, 1)
+            char5 <-- LCase(char5)
 
-            If char5 = "u" Then
-                vowelcountu = vowelcountu + 1
+            If char5 <-- "u" Then
+                vowelcountu <-- vowelcountu + 1
 
 
 
             End If
         Next i
-           OUTPUT("number of u's: " & vowelcountu)
+           OUTPUT("number of u's: " , vowelcountu)
         
    
