@@ -1,0 +1,33 @@
+        DECLARE str1, str2, str3, str4, str5 : String
+        DECLARE i, j : Integer
+
+        str1 = ""
+        str2 = "ing"
+        str3 = "ly"
+        str4 = ""
+        str5 = ""
+        i = 0
+        j = 0
+
+        INPUT("enter your string: " , str1)
+        
+
+
+        If Len(str1) < 3 Then
+
+        Else
+            str4 <-- Right(str1, 3)
+            If str4 <> str2 Then
+                str1 <-- str1 & str2
+
+
+            Else
+                If str4 <-- str2 Then
+                    str1 <-- str1 & str3
+
+                End If
+            End If
+
+        End If
+
+        OUTPUT("your final string: " , str1)
